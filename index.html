@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/icon.svg" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Gothic&family=Luckiest+Guy&family=Noto+Sans+Georgian:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Gothic&family=Luckiest+Guy&family=Noto+Sans+Georgian:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="/" class="logo-link">
+        <img class="logo" src="img/logo.svg" alt="Wine Land Logo" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <button class="scroll-to" data-target="products">products</button>
+          </li>
+          <li>
+            <button class="scroll-to" data-target="about-us">About Us</button>
+          </li>
+          <li>
+            <button class="scroll-to" data-target="contact">Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <div class="call-us">
+        <a href="tel:+995599390092"><img src="img/phone.svg" alt="Phone" /> <p>CALL US</p></a>
+      </div>
+      <button class="burger-menu">
+        <img src="img/burger.svg" alt="Menu" />
+      </button>
+    </header>
+    <sidebar id="sidebar">
+      <div>
+        <button class="close">
+          <img src="img/navbare-close-icon.svg" alt="Close" />
+        </button>
+        <nav>
+          <ul>
+            <li>
+              <button class="scroll-to" data-target="products">Products</button>
+            </li>
+            <li>
+              <button class="scroll-to" data-target="about-us">About Us</button>
+            </li>
+            <li>
+              <button class="scroll-to" data-target="contact">Contact</button>
+            </li>
+          </ul>
+        </nav>
+        <a href="tel:+995599390092">
+          <img src="img/phone.svg" alt="Phone" />
+          <p>call us</p>
+        </a>
+      </div>
+    </sidebar>
+    <main>
+      <section class="hero">
+        <div class="background">
+          <img src="img/hero-bg.svg" alt="Hero Background" />
+        </div>
+        <div class="wine-demo"></div>
+        <div class="hero-text">
+          <h1>WINE LAND</h1>
+          <h3>
+            “The secret of the success of our wine is the richness of flavor,
+            saturated bouquet of aromas, wide selection and high quality of the
+            product.”
+          </h3>
+          <img src="img/hero-decoration.svg" alt="Hero Decoration" />
+        </div>
+        <div class="learn-more">
+          Learn more about us<button class="scroll-to" data-target="about-us">
+            <img src="img/scroll-arrow.svg" alt="Arrow" />
+          </button>
+        </div>
+      </section>
+      <section id="products">
+        <h2>Products</h2>
+        <div class="products-container">
+          <div id="filters"></div>
+          <div class="products-inner-container">
+            <div id="products-list"></div>
+            <div id="pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section id="about-us">
+        <div class="about-us">
+          <div class="about-us-temp">
+            <h2>About us</h2>
+            <div class="about-us-container">
+              <div class="about-us-text first">
+                <p>
+                  Georgia is considered one of the oldest wine-producing
+                  countries in the world, with a winemaking history dating back
+                  over 8,000 years. Georgian winemaking is deeply intertwined
+                  with the country's culture, religion, and hospitality,
+                  producing unique natural wines with distinct aromas and rich
+                  character. With over 500 indigenous grape varieties, Georgia
+                  continues to be a vital and unique region in the global wine
+                  world.
+                </p>
+                <p>
+                  Viticulture - is an art, in which Georgian people have been
+                  training for many centuries. All the year round Georgians are
+                  taking care of vine as if it were their daughter, putting
+                  their heart and soul in it, till the autumn season of "Rtveli"
+                  when the juicy and flavorful grapes are collected.
+                </p>
+              </div>
+              <div class="about-us-text second">
+                <p>
+                  Cradle of Georgian wine culture is Kakheti region. There,
+                  along the river of Alazani is stretched the Alazany valley,
+                  the place where such varieties Georgian grapes as
+                  Kindzmarauli, Akhasheni, Tsinandali and Mukuzani are being
+                  grown. The climate of the Alazany valley is ideal for growing
+                  grapes. And it is here, in Kakheti, in the villages of Sabue
+                  and Eniseli where the plants of our company are situated.
+                </p>
+                <p>
+                  Nowadays “Wine Land” offers  dry, semi-dry and semi-sweet red
+                  and white wines from of such grape varieties as: Saperavi,
+                  Rkatsiteli, Mtsvane and Ojaleshi. Our company is pouring as
+                  table wines so the wines controlled according to the place of
+                  their origin, grown in the strictly defined zones of Georgia,
+                  such as Mukuzani, Kindzmarauli , Khvanchkara , Tsinandali,
+                  Ojaleshi and Akhasheni.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="factory-demo-container">
+          <img
+            class="factory-decoration"
+            src="img/factory-decoration.svg"
+            alt="Wine land logo"
+          />
+          <div class="factory-demo-images-container">
+            <div class="factory-demo-images">
+              <img
+                class="first"
+                src="img/factory/1.jpg"
+                alt="Wine Land Factory Demo"
+              />
+              <img
+                class="second"
+                src="img/factory/2.jpg"
+                alt="Wine Land Factory Demo"
+              />
+              <img
+                class="third"
+                src="img/factory/3.jpg"
+                alt="Wine Land Factory Demo"
+              />
+            </div>
+            <div class="text-container">
+              <p>
+                the factory restored the two hundred year old cellar, where
+                there are 120 unique "kvevri." Some wines require special
+                ageing. For example, the Mukuzani wine is aged in large oak
+                barrels. They give the wine a unique noble odor and some new
+                notes in flavor.
+              </p>
+              <p>
+                Our wine has great demand among consumers and is regularly
+                exported to Norway, Germany, United States and Sweden.
+              </p>
+              <p>
+                Our company also produces western Georgian sorts of grapes, for
+                example: Aladasturi, Cicqa, Colikauri, Krakhuna, Otskhanuri and
+                Ojaleshi.
+              </p>
+              <p>
+                factory allows to process up to 2,500 tons of grapes. And a new
+                modern Italian production line can fill up to 3000 bottles per
+                hour. New technologies make it possible to increase the
+                efficiency of labor and familiarize higher number of consumers
+                around the globe with the traditional Georgian wine and cognac
+                products.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="stick"></div>
+        <h2>Contact us</h2>
+        <div class="contact-container">
+          <div class="contact-data-container">
+            <p class="role">Export Manager</p>
+            <p class="name">Guram Tskhelishvili</p>
+            <a href="mailto:tskhelishviliguram@gmail.com" class="mail"
+              >tskhelishviliguram@gmail.com</a
+            >
+            <a href="tel:+995599417700" class="phone">+995 599 41 77 00</a>
+          </div>
+          <div class="contact-data-container">
+            <p class="role">Sales Manager</p>
+            <p class="name">Giorgi Tskhelishvili</p>
+            <a href="mailto:tskhelishviligiorgi1@gmail.com" class="mail"
+              >tskhelishviligiorgi1@gmail.com</a
+            >
+            <a href="tel:+995599390092" class="phone">+995 599 39 00 92</a>
+          </div>
+        </div>
+        <div class="stick second"></div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <img src="img/full-logo.svg" alt="Wine Land Logo" />
+        <nav>
+          <ul>
+            <li>
+              <button class="scroll-to" data-target="products">Products</button>
+            </li>
+            <li>
+              <button class="scroll-to" data-target="about-us">About Us</button>
+            </li>
+            <li>
+              <button class="scroll-to" data-target="contact">Contact</button>
+            </li>
+          </ul>
+        </nav>
+        <div class="call-us">
+          <a href="tel:+995599390092"><img src="img/phone.svg" alt="Facebook" /> <p>CALL US </p></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© Wine land 2025</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
